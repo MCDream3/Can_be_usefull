@@ -1,3 +1,8 @@
+#YOU HAVE TO USE COMMAND PROMPT TO VERIFY CODE!!!!!
+#in the end are commands if YOU'D like to use it
+
+
+
 import getopt
 #getopt: Библиотека для обработки аргументов командной строки
 import sys
@@ -6,7 +11,7 @@ from PIL import Image
 #PIL (Python Imaging Library): Библиотека для работы с изображениями
 
 def usage():
-  print('Usage: monika_decode.py [-v] [FILE]')
+  print('Usage: decode.py [-v] [FILE]')
   sys.exit(2)
   #Функция выводит сообщение о том, как использовать программу, затем завершает выполнение с кодом завершения 2
 
@@ -64,7 +69,30 @@ if __name__ == '__main__':
 #Этот код сделан в моих личных целях для декода файла игры. Только ради интереса
 #На моём устройстве код рабочий
 #ДАННЫЙ КОД НЕ УЧАСТВУЕТ В НАУКЕ ЭТО ТОЛЬКО ТРЕНИРОВКА
+#Я провела более месяца на разгадку этого файла...
 
 #Ten kod zrobiłam dla moich osobistych celów dla odszyfrowania pliku gry. Tylko dla "zabawy"
 #Na moim urządzeniu kod działa
 #KOD POWYŻEJ NIE UCZĘSZCZA W NAUCE TO JEST TYLKO TRENING
+#Straciłam ponad miesiąc na rozwikłanie tego pliku...
+
+#                                                                    !!! C  O  M  M  A  N  D  S !!!                                                                       
+
+#(nazwa pliku w którym jest "py"(ma wyświetlać się automatycznie)) nano ../Scripts/decode.py
+#(nazwa pliku w którym jest "py"(ma wyświetlać się automatycznie)) chmode +x ../Scripts/decode.py
+#(nazwa pliku w którym jest "py"(ma wyświetlać się automatycznie)) ../Scripts/decode.py
+#(nazwa pliku w którym jest "py"(ma wyświetlać się automatycznie)) ../Scripts/decode.py -v (nazwa "png").png
+
+#~~ Wyświetlane są rozmaite znaki ~~
+
+#(nazwa pliku w którym jest "py"(ma wyświetlać się automatycznie)) ../Scripts/decode.py -v (nazwa "png").png | less
+
+#~~ Wyświetlane są cyfry 0 1 ~~
+
+#(nazwa pliku w którym jest "py"(ma wyświetlać się automatycznie)) ../Scripts/decode.py (nazwa "png").png | base64 -d | less
+
+#~~ Wyświetlany jest rezultat dekodu ~~
+
+#                                                                        K  O  N  I  E  C
+
+
